@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/view/">
+	<decorator name="basic-theme" page="siteMesh.jsp">
+ 		<pattern>/view/Admin/*</pattern>
+		<pattern>/view/sMem/*</pattern>
+		<pattern>*.do</pattern>
+	</decorator>
+
+	<excludes>
+		<pattern>siteMesh.jsp</pattern>
+		<pattern>/ajax/*</pattern>
+		<pattern>/view/sMem/ordlistOfsmem.jsp</pattern>
+		<pattern>/GuestOrdList.do*</pattern>
+	</excludes>
+</decorators>
